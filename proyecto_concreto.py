@@ -30,3 +30,4 @@ etiqueta = tk.Label(ventana, text="")
 etiqueta.pack(pady=5)
 
 ventana.mainloop()
+# sexo
