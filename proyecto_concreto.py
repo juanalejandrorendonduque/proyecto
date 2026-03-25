@@ -12,7 +12,7 @@ opciones = ["Seleccionar","Asentamiento", "Consistencia de la mezcla", "Tipo de 
 # Crear el combobox
 pregunta_asentamiento = tk.Label(ventana, text="¿Que datos conoce de la mezcla?")
 pregunta_asentamiento.pack(pady=5)
-combo = ttk.Combobox(ventana, values=opciones)
+combo = ttk.Combobox(ventana, values=opciones, width=80)
 combo.current(0)  # Selecciona la primera opción por defecto
 combo.pack(pady=10)
 
